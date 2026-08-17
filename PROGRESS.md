@@ -29,7 +29,18 @@ Plan: docs/plan-2026-08-17.md.
   settings need {labels: [{label, color, index}]}, not the raw API's
   index-keyed map. setup_board.py stays as the self-serve door for users.
 
-## Next
+## 17 Aug, second pass: launch state
+
+- Board approved by Omri ("looks good").
+- Live smoke test of wbw.py WAIVED by Omri ("assume it works"). Unverified
+  against a live board; fixture-tested only. If a user reports a digest bug,
+  start here.
+- Repo PUBLIC at github.com/opitaru-sys/who-builds-what (his call, 17 Aug).
+- Launch order: LinkedIn first. Drafts in
+  seed-agent/writing-desk/wbw-launch-posts.md; reddit sub and screenshot
+  decision still open.
+
+## Next (original plan, kept for reference)
 
 1. Build the demo board: private, in Omri's Overwolf Monday (his call, made
    knowingly). Preferred door: the Monday CONNECTOR once it exposes create
