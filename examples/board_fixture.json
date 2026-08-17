@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1001",
+    "name": "Churn summary bot",
+    "updated_at": "2026-08-17T08:00:00Z",
+    "description": "A weekly summary of customers at risk of churn, built for the growth team.",
+    "column_values": [
+      {"column": {"title": "Owner"}, "text": "Alice Chen"},
+      {"column": {"title": "Team"}, "text": "Growth"},
+      {"column": {"title": "Status"}, "text": "in use"},
+      {"column": {"title": "Tools & models"}, "text": "GPT-4, Python"},
+      {"column": {"title": "Data it touches"}, "text": "customer usage data"},
+      {"column": {"title": "Manager aware"}, "text": "yes"}
+    ]
+  },
+  {
+    "id": "1002",
+    "name": "Customer churn digest agent",
+    "updated_at": "2026-08-12T09:00:00Z",
+    "description": "A weekly digest of customers at risk of churn, built for customer success.",
+    "column_values": [
+      {"column": {"title": "Owner"}, "text": "Marcus Webb"},
+      {"column": {"title": "Team"}, "text": "Customer Success"},
+      {"column": {"title": "Status"}, "text": "building"},
+      {"column": {"title": "Tools & models"}, "text": "GPT-4, Python"},
+      {"column": {"title": "Data it touches"}, "text": "customer usage data, billing records"},
+      {"column": {"title": "Manager aware"}, "text": "yes"}
+    ]
+  },
+  {
+    "id": "1003",
+    "name": "Meeting notes summarizer",
+    "updated_at": "2026-08-14T10:00:00Z",
+    "description": "Turns rough meeting notes into a clean recap sent to the team channel.",
+    "column_values": [
+      {"column": {"title": "Owner"}, "text": "Priya Patel"},
+      {"column": {"title": "Team"}, "text": "Product"},
+      {"column": {"title": "Status"}, "text": "idea"},
+      {"column": {"title": "Tools & models"}, "text": "Claude"},
+      {"column": {"title": "Data it touches"}, "text": "internal docs"},
+      {"column": {"title": "Manager aware"}, "text": "no"}
+    ]
+  },
+  {
+    "id": "1004",
+    "name": "Support ticket triager",
+    "updated_at": "2026-01-15T08:00:00Z",
+    "description": "Reads incoming support tickets and routes them to the right queue by urgency.",
+    "column_values": [
+      {"column": {"title": "Owner"}, "text": "Jordan Lee"},
+      {"column": {"title": "Team"}, "text": "Support"},
+      {"column": {"title": "Status"}, "text": "in use"},
+      {"column": {"title": "Tools & models"}, "text": "OpenAI API"},
+      {"column": {"title": "Data it touches"}, "text": "customer support tickets"},
+      {"column": {"title": "Manager aware"}, "text": "yes"}
+    ]
+  },
+  {
+    "id": "1005",
+    "name": "Sales call transcriber",
+    "updated_at": "2026-08-16T20:00:00Z",
+    "description": "Transcribes and tags sales calls so reps can search for objections later.",
+    "column_values": [
+      {"column": {"title": "Owner"}, "text": "Sam Okafor"},
+      {"column": {"title": "Team"}, "text": "Sales"},
+      {"column": {"title": "Status"}, "text": "in use"},
+      {"column": {"title": "Tools & models"}, "text": "Whisper, GPT-4"},
+      {"column": {"title": "Data it touches"}, "text": "sales call recordings"},
+      {"column": {"title": "Manager aware"}, "text": "yes"}
+    ]
+  }
+]
