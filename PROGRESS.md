@@ -22,6 +22,12 @@ Plan: docs/plan-2026-08-17.md.
 - examples/: 5 fictional projects (Alice/Marcus churn duplicate pair, Priya's
   unapproved item, one stale) + sample-digest.md.
 - All committed locally. NO remote yet.
+- Demo board LIVE (17 Aug, via the Monday connector, which now exposes the
+  full create toolkit): board id 18426874150, private, Overwolf Monday,
+  https://theoverwolf.monday.com/boards/18426874150. 7 columns + 5 demo items
+  verified by reading the board back. Connector gotcha: create_column status
+  settings need {labels: [{label, color, index}]}, not the raw API's
+  index-keyed map. setup_board.py stays as the self-serve door for users.
 
 ## Next
 
