@@ -1,6 +1,16 @@
 # Board setup guide
 
-Ten minutes in Monday, once, by whoever keeps the registry.
+Ten minutes in Monday, once, by whoever keeps the registry. Or thirty seconds:
+
+```bash
+MONDAY_API_TOKEN=your_token python scripts/setup_board.py --private --demo
+```
+
+builds the whole board for you (`--demo` adds five fictional projects so it
+demos itself; `--dry-run` shows the API calls without sending; drop
+`--private` for a workspace-visible board). The script uses Dropdown columns
+where the manual list says Tags; both work, dropdowns are what the API can
+seed with values.
 
 ## Columns
 

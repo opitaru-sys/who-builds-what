@@ -23,10 +23,10 @@ No servers, no accounts, no vendor. You own everything.
 
 ## Deploy in three steps
 
-1. **Create the registry board.** Duplicate the template board
-   <!-- TEMPLATE LINK: Omri --> or build it yourself in ten minutes from the
-   column list in [docs/board-setup.md](docs/board-setup.md). Turn on the
-   board's form (WorkForms) and keep the field order as listed.
+1. **Create the registry board.** Build it in ten minutes from the column
+   list in [docs/board-setup.md](docs/board-setup.md) - nine columns, three
+   views, done. Turn on the board's form (WorkForms) and keep the field order
+   as listed.
 2. **Share two links** with your company: the form link (for registering) and
    the board link (for browsing). Board permissions are your call; the
    registry maps your internal projects, so share it as widely as the
